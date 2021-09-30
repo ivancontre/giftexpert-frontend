@@ -4,8 +4,9 @@ import GifExpertApp from './GifExpertApp';
 
 import './index.css';
 
+const categories = ['Pokemon'];
 
 ReactDOM.render(
-    <GifExpertApp />,
+    <GifExpertApp defaultCategories={ categories } />,
     document.getElementById('root')
 );
